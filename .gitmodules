@@ -1,3 +1,6 @@
 [submodule "src/ros-bridge"]
 	path = src/ros-bridge
 	url = https://github.com/carla-simulator/ros-bridge.git
+[submodule "src/carla_sensor_publisher"]
+	path = src/carla_sensor_publisher
+	url = https://github.com/Ashuh/carla_sensor_publisher.git
