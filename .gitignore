@@ -1,6 +1,6 @@
 /build
 /devel
-CMakeLists.txt
+src/CMakeLists.txt
 .catkin_workspace
 .vscode/c_cpp_properties.json
 .vscode/settings.json
