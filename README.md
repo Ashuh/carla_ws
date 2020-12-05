@@ -10,6 +10,18 @@ sudo apt-get install carla-simulator # Install the latest CARLA version, or upda
 cd /opt/carla-simulator # Verify the CARLA installation
 ```
 
+To use the CARLA API, replace `<path-to-carla>` and `<carla_version_and_arch>` appropriately and run the following command:
+
+```bash
+echo 'export PYTHONPATH=$PYTHONPATH:<path-to-carla>/PythonAPI/carla/dist/carla-<carla_version_and_arch>.egg' >> ~/.bashrc
+```
+
+Example Usage:
+
+```bash
+echo 'export PYTHONPATH=$PYTHONPATH:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.10-py3.7-linux-x86_64.egg' >> ~/.bashrc
+```
+
 ## Install ROS Packages
 
 ```bash
