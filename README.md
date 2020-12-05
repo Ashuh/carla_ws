@@ -24,9 +24,9 @@ sudo apt-get install ros-$ROS_DISTRO-amcl
 
 ```bash
 git clone https://github.com/Ashuh/carla_ws.git
+cd carla_ws
 git submodule update --init --recursive
 rosdep install --from-paths src --ignore-src -r
-cd carla_ws
 catkin_make
 ```
 
