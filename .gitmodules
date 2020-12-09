@@ -4,3 +4,6 @@
 [submodule "src/carla_sensor_publisher"]
 	path = src/carla_sensor_publisher
 	url = https://github.com/Ashuh/carla_sensor_publisher.git
+[submodule "src/carla_agv"]
+	path = src/carla_agv
+	url = https://github.com/Ashuh/carla_agv.git
