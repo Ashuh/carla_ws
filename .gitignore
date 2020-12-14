@@ -1,5 +1,7 @@
 /build
 /devel
+/logs
+/.catkin_tools
 src/CMakeLists.txt
 .catkin_workspace
 .vscode/c_cpp_properties.json
