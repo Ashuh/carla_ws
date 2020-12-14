@@ -1,47 +1,5 @@
 # CARLA Workspace
 
-## Install CARLA
-
-```bash
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1AF1527DE64CB8D9
-sudo add-apt-repository "deb [arch=amd64] http://dist.carla.org/carla bionic main"
-sudo apt-get update # Update the Debian package index
-sudo apt-get install carla-simulator # Install the latest CARLA version, or update the current installation
-cd /opt/carla-simulator # Verify the CARLA installation
-```
-
-To use the CARLA API, replace `<path-to-carla>` and `<carla_version_and_arch>` appropriately and run the following command:
-
-```bash
-echo 'export PYTHONPATH=$PYTHONPATH:<path-to-carla>/PythonAPI/carla/dist/carla-<carla_version_and_arch>.egg' >> ~/.bashrc
-```
-
-Example Usage:
-
-```bash
-echo 'export PYTHONPATH=$PYTHONPATH:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.10-py3.7-linux-x86_64.egg' >> ~/.bashrc
-```
-
-## Install ROS Packages
-
-```bash
-sudo apt-get install ros-$ROS_DISTRO-map-server
-sudo apt-get install ros-$ROS_DISTRO-slam-gmapping
-sudo apt-get install ros-$ROS_DISTRO-pointcloud-to-laserscan
-sudo apt-get install ros-$ROS_DISTRO-robot-localization
-sudo apt-get install ros-$ROS_DISTRO-amcl
-```
-
-## Install Workspace
-
-```bash
-git clone https://github.com/Ashuh/carla_ws.git
-cd carla_ws
-git submodule update --init --recursive
-rosdep install --from-paths src --ignore-src -r
-catkin_make
-```
-
 ## Mapping
 
 ```bash
