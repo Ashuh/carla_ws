@@ -16,3 +16,6 @@
 [submodule "src/autoware/visualization"]
 	path = src/autoware/visualization
 	url = https://github.com/Autoware-AI/visualization.git
+[submodule "src/autoware/utilities"]
+	path = src/autoware/utilities
+	url = https://github.com/Autoware-AI/utilities.git
