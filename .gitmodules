@@ -4,3 +4,15 @@
 [submodule "src/carla_agv"]
 	path = src/carla_agv
 	url = https://github.com/Ashuh/carla_agv.git
+[submodule "src/autoware/messages"]
+	path = src/autoware/messages
+	url = https://github.com/Autoware-AI/messages.git
+[submodule "src/autoware/common"]
+	path = src/autoware/common
+	url = https://github.com/Autoware-AI/common.git
+[submodule "src/autoware/core_perception"]
+	path = src/autoware/core_perception
+	url = https://github.com/Autoware-AI/core_perception.git
+[submodule "src/autoware/visualization"]
+	path = src/autoware/visualization
+	url = https://github.com/Autoware-AI/visualization.git
