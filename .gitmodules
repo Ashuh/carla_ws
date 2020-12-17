@@ -19,3 +19,6 @@
 [submodule "src/autoware/utilities"]
 	path = src/autoware/utilities
 	url = https://github.com/Autoware-AI/utilities.git
+[submodule "src/autoware/core_planning"]
+	path = src/autoware/core_planning
+	url = https://github.com/Autoware-AI/core_planning.git
