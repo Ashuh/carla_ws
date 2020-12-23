@@ -144,3 +144,12 @@ git submodule update --init --recursive
 rosdep install -y --from-paths src --ignore-src -r
 catkin_make
 ```
+
+## Download Maps
+
+---
+
+```bash
+cd "$HOME"/carla_ws/src/carla_agv/agv/autoware-contents
+git lfs pull
+```
